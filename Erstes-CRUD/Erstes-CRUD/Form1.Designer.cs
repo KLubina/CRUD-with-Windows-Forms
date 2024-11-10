@@ -1,4 +1,4 @@
-﻿namespace Erstes_CRUD
+﻿namespace EinfachesCRUD
   {
   partial class Form1
     {
@@ -33,8 +33,8 @@
       this.btnUpdate = new System.Windows.Forms.Button();
       this.btnDelete = new System.Windows.Forms.Button();
       this.btnRead = new System.Windows.Forms.Button();
-      this.dataGridView = new System.Windows.Forms.DataGridView();
-      ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
+      this.dataGridViewStudents = new System.Windows.Forms.DataGridView();
+      ((System.ComponentModel.ISupportInitialize)(this.dataGridViewStudents)).BeginInit();
       this.SuspendLayout();
       // 
       // txtName
@@ -81,22 +81,22 @@
       this.btnRead.Text = "Lesen";
       this.btnRead.UseVisualStyleBackColor = true;
       // 
-      // dataGridView
+      // dataGridViewStudents
       // 
-      this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-      this.dataGridView.Location = new System.Drawing.Point(48, 98);
-      this.dataGridView.Name = "dataGridView";
-      this.dataGridView.RowHeadersWidth = 72;
-      this.dataGridView.RowTemplate.Height = 31;
-      this.dataGridView.Size = new System.Drawing.Size(693, 311);
-      this.dataGridView.TabIndex = 5;
+      this.dataGridViewStudents.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+      this.dataGridViewStudents.Location = new System.Drawing.Point(48, 98);
+      this.dataGridViewStudents.Name = "dataGridViewStudents";
+      this.dataGridViewStudents.RowHeadersWidth = 72;
+      this.dataGridViewStudents.RowTemplate.Height = 31;
+      this.dataGridViewStudents.Size = new System.Drawing.Size(693, 311);
+      this.dataGridViewStudents.TabIndex = 5;
       // 
       // Form1
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.ClientSize = new System.Drawing.Size(800, 450);
-      this.Controls.Add(this.dataGridView);
+      this.Controls.Add(this.dataGridViewStudents);
       this.Controls.Add(this.btnRead);
       this.Controls.Add(this.btnDelete);
       this.Controls.Add(this.btnUpdate);
@@ -104,7 +104,7 @@
       this.Controls.Add(this.txtName);
       this.Name = "Form1";
       this.Text = "Erstes-CRUD";
-      ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
+      ((System.ComponentModel.ISupportInitialize)(this.dataGridViewStudents)).EndInit();
       this.ResumeLayout(false);
       this.PerformLayout();
 
@@ -116,7 +116,7 @@
     private System.Windows.Forms.Button btnUpdate;
     private System.Windows.Forms.Button btnDelete;
     private System.Windows.Forms.Button btnRead;
-    private System.Windows.Forms.DataGridView dataGridView;
+    private System.Windows.Forms.DataGridView dataGridViewStudents;
     }
   }
 

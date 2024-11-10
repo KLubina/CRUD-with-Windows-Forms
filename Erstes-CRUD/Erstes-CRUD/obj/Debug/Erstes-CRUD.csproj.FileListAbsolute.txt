@@ -1,0 +1,10 @@
+C:\GitHubDesktop\CRUD-with-Csharp\Erstes-CRUD\Erstes-CRUD\obj\Debug\Erstes-CRUD.csproj.AssemblyReference.cache
+C:\GitHubDesktop\CRUD-with-Csharp\Erstes-CRUD\Erstes-CRUD\obj\Debug\EinfachesCRUD.Form1.resources
+C:\GitHubDesktop\CRUD-with-Csharp\Erstes-CRUD\Erstes-CRUD\obj\Debug\Erstes_CRUD.Properties.Resources.resources
+C:\GitHubDesktop\CRUD-with-Csharp\Erstes-CRUD\Erstes-CRUD\obj\Debug\Erstes-CRUD.csproj.GenerateResource.cache
+C:\GitHubDesktop\CRUD-with-Csharp\Erstes-CRUD\Erstes-CRUD\obj\Debug\Erstes-CRUD.csproj.CoreCompileInputs.cache
+C:\GitHubDesktop\CRUD-with-Csharp\Erstes-CRUD\Erstes-CRUD\bin\Debug\Erstes-CRUD.exe.config
+C:\GitHubDesktop\CRUD-with-Csharp\Erstes-CRUD\Erstes-CRUD\bin\Debug\Erstes-CRUD.exe
+C:\GitHubDesktop\CRUD-with-Csharp\Erstes-CRUD\Erstes-CRUD\bin\Debug\Erstes-CRUD.pdb
+C:\GitHubDesktop\CRUD-with-Csharp\Erstes-CRUD\Erstes-CRUD\obj\Debug\Erstes-CRUD.exe
+C:\GitHubDesktop\CRUD-with-Csharp\Erstes-CRUD\Erstes-CRUD\obj\Debug\Erstes-CRUD.pdb
