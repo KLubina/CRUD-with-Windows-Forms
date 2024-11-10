@@ -16,6 +16,28 @@ namespace EinfachesCRUD
       InitializeComponent();
       }
 
+    private void TestDatabaseConnection()
+      {
+      using ( SqlConnection con = new SqlConnection( connectionString ) )
+        {
+        try
+          {
+          con.Open();
+          MessageBox.Show( "Verbindung zur Datenbank erfolgreich!" );
+          }
+        catch ( Exception ex )
+          {
+          MessageBox.Show( "Fehler bei der Verbindung zur Datenbank: " + ex.Message );
+          }
+        }
+      }
+
+    // Diese Methode kannst du dann zum Beispiel im Load-Event der Form aufrufen
+    private void Form1_Load( object sender, EventArgs e )
+      {
+      TestDatabaseConnection();
+      }
+
     // CREATE Operation (Datensatz hinzufügen)
     private void btnAdd_Click( object sender, EventArgs e )
       {

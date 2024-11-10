@@ -53,6 +53,7 @@
       this.btnAdd.TabIndex = 1;
       this.btnAdd.Text = "Hinzufügen";
       this.btnAdd.UseVisualStyleBackColor = true;
+      this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
       // 
       // btnUpdate
       // 
@@ -62,6 +63,7 @@
       this.btnUpdate.TabIndex = 2;
       this.btnUpdate.Text = "Aktualisieren";
       this.btnUpdate.UseVisualStyleBackColor = true;
+      this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
       // 
       // btnDelete
       // 
@@ -71,6 +73,7 @@
       this.btnDelete.TabIndex = 3;
       this.btnDelete.Text = "Löschen";
       this.btnDelete.UseVisualStyleBackColor = true;
+      this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
       // 
       // btnRead
       // 
@@ -80,6 +83,7 @@
       this.btnRead.TabIndex = 4;
       this.btnRead.Text = "Lesen";
       this.btnRead.UseVisualStyleBackColor = true;
+      this.btnRead.Click += new System.EventHandler(this.btnRead_Click);
       // 
       // dataGridViewStudents
       // 
@@ -104,6 +108,7 @@
       this.Controls.Add(this.txtName);
       this.Name = "Form1";
       this.Text = "Erstes-CRUD";
+      this.Load += new System.EventHandler(this.Form1_Load);
       ((System.ComponentModel.ISupportInitialize)(this.dataGridViewStudents)).EndInit();
       this.ResumeLayout(false);
       this.PerformLayout();
